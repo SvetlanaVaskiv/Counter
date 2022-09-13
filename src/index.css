@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+#root {
+  font-family: serif;
+  color: rgb(17, 102, 176);
+  background-image: url("./assets/fall.jpeg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px;
+
+}
+p {
+  text-decoration: underline;
+}
+h1 {
+  color: blueviolet;
+}
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  height: 60vh;
+  background-color: rgba(181, 182, 238, 0.48);
+  margin: 0 auto;
+  padding: 5px;
+  line-height: 2.5;
+  border-radius: 5px;
+  border: 1px solid;
+}
